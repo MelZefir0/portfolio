@@ -1,0 +1,54 @@
+svg
+{
+	position: absolute;
+	display: inline-block;
+	z-index:-10;
+	/*background-color: blue;*/
+}
+
+#navbar
+{
+
+
+}
+.intro
+{
+	position: relative;
+	display: inline-block;
+	background-color: rgba(221, 221, 221, 0.3);
+	margin-top: 0px;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
+	width: 87%;
+	height: 1350px;
+}
+
+.lines, #redLine
+{
+	position: relative;
+	top:900;
+	left: 200;
+	z-index: 1;
+	height: 1900px;
+	width: 2000px;	
+}
+
+.lines, #blackLine0
+{
+	position: relative;
+	top: -800;
+	left: -200;
+	z-index: 1;
+	height: 2000px;
+	width: 2000px;
+}
+
+.lines, #blackLine1
+{
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 2000px;
+	width: 2000px;
+}
